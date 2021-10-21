@@ -7,10 +7,10 @@ function carrello(){
     let input = prompt('Cosa metti nel carrello?');
 
     if(input===null || input==="" || parseInt(input)){
-        alert("inserisci qualcosa nel carrello");
+        alert("Non hai aggiunto alcun prodotto");
     } 
     if(cart.includes(input) == true) {
-        alert("hai già aggiunto questo prodotto:" + " " + input)
+        alert("Hai già aggiunto questo prodotto:" + " " + input)
     }
     
     else if( input!=='') {
